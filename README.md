@@ -48,10 +48,10 @@ cd <repo-folder>
 Create a `.env` file inside the `test/` directory with the following content:
 
 ```
-PROJECT_NAME=ShipEngine Address Validator
-DATABASE_URL=postgresql+asyncpg://postgres:admin123@db:5432/postgres
-REDIS_URL=redis://redis:6379
-SHIPENGINE_API_KEY=<your-shipengine-api-key>
+PROJECT_NAME=ShipEngine CRUD Service
+SHIPENGINE_API_KEY=TEST_ajmhsjS6UZfp8hho/VNMqM6vP4fsGcHSVLPZgDF+4Uw
+DATABASE_URL=postgresql+asyncpg://postgres:admin123@db:5432/shipengine_db
+REDIS_URL=redis://redis:6379/0
 ```
 
 ### 3. Build and Start Services
