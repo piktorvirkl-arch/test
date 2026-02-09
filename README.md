@@ -25,7 +25,6 @@ app/
   services/                # Business logic & external API
   worker.py                # Background worker
 main.py                    # FastAPI app entrypoint
-worker.py                  # (duplicate, to be removed)
 requirements.txt           # Python dependencies
 Dockerfile                 # Docker image definition
 docker-compose.yml         # Multi-container setup
